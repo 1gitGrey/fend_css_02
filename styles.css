@@ -1,23 +1,19 @@
 body {
-
-font-size: 1em;
-margin: 10px;
-
-	}
+	font-size: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 10px;
+}
 
 #card-frame {
-
 	max-width: 300px;
 	height: 800px;
 	box-shadow: 5px 5px 5px 3px gainsboro;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
-
+	border-radius: 2px;
 }
 
 div.framed {
-
 	border-color: lightgray;
 	border-style: solid;
 	border-width: 0.5px;
@@ -32,11 +28,11 @@ div.framed {
 }
 
 img {
-
 	min-width: 300px;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-bottom: 10px;
+	border-radius: 2px;
 }
 
 #factitalio {
@@ -46,24 +42,19 @@ img {
 }
 
 ul {
-
 	list-style: none;
 	padding: 0px;
 }
 
 li {
-
 	line-height: 20px;
 }
 
 span {
-
 	font-weight: 900;
 }
-#description_anchor{
 
+#description_anchor {
 	margin-bottom: 40px;
 	margin-top: 0px;
-
-
 }
